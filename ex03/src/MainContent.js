@@ -1,3 +1,4 @@
+// section that will select which content will be shown
 import React from "react";
 import Home from "./Home";
 import Products from "./Products";

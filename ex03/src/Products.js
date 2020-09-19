@@ -1,3 +1,5 @@
+// Componet to show the products list if loaded.
+
 import React from "react";
 import ProductCard from "./ProductCard.js";
 

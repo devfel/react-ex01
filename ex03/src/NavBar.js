@@ -1,3 +1,4 @@
+//Navbar or header component
 import React from "react";
 import NavItem from "./NavItem.js";
 
