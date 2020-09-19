@@ -1,3 +1,4 @@
+// Page loaded if the home is selected
 import React from "react";
 
 const Home = (props) => {

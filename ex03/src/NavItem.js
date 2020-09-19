@@ -1,3 +1,4 @@
+// component for each nav bar item
 import React from "react";
 
 const NavItem = (props) => {

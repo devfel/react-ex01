@@ -1,10 +1,6 @@
-import React from "react";
+// Card component to show each item or product
 
-/* REMOVE
-const products = [
-    { name: "Laptop", spaceAvailable: ["32gb memory", "512 gigas"] },
-    { name: "Phone", spaceAvailable: ["8gb memory", "256 gigas"] },
-  ];*/
+import React from "react";
 
 const ProductCard = (props) => {
   return (
