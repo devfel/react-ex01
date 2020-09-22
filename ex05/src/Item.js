@@ -4,16 +4,6 @@ const Item = ({ countryName }) => {
   const [itemData, setItemData] = React.useState(null);
 
   React.useEffect(() => {
-    //console.log(countryName);
-    /*if (countryName !== null) {
-      console.log(
-        fetch(
-          `https://coronavirus-19-api.herokuapp.com/countries/${countryName}`
-        )
-          .then((response) => response.json())
-          .then((json) => setItemData(json))
-      );
-    }*/
     if (countryName !== null) {
       fetch(`https://coronavirus-19-api.herokuapp.com/countries/${countryName}`)
         .then((response) => response.json())
