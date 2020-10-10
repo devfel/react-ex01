@@ -14,3 +14,4 @@ This is a repository to save a series of exercises done for practice and review 
 - ex06: Add item pop up and pop out after 2s using useRef.
 - ex07: List all covid cases per country using useContext to pass information to all components.
 - ex08: Fetch and Local Storage as a Custom Hooks for listing all countries and saving data locally.
+- ex09: Single field form to test reactivity.
