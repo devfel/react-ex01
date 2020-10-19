@@ -25,6 +25,8 @@ const App = () => {
     password: "",
   });
 
+  const [response, setResponse] = React.useState(null);
+
   function handleSubmit(event){
     event.preventDefault();
 
@@ -35,8 +37,9 @@ const App = () => {
       },
       body: JSON.stringify(form),
     }).then((response) => {
-      console.log(response);
-      console.log(JSON.stringify(form))
+      console.log(response); //testing response result
+      //console.log(JSON.stringify(form)) //testing form values
+      setResponse(response);
     });
   }
 
@@ -57,7 +60,7 @@ const App = () => {
         </div>
       )
     })}
-     
+    {response && response.ok && <p>Account successfully created.</p>}
     {/* Using Array.map above to replace the following commands: 
     <label htmlFor="username">Username:</label>
     <input 
