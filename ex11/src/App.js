@@ -18,13 +18,23 @@ const App = () => {
       label: "Password",
     }
   ]
+  
+  const [form, setForm] = React.useState(
+    formFieldsArray.reduce((acc, field) => {
+      return {
+        ...acc,
+        [field.id]: '',
+      };
+    }, {}),
+  );
 
+  /* replaced by the Array.Reduce Function above. 
   const [form, setForm] = React.useState({
     username: "",
     email: "",
     password: "",
   });
-
+  */
   const [response, setResponse] = React.useState(null);
 
   function handleSubmit(event){
@@ -37,7 +47,7 @@ const App = () => {
       },
       body: JSON.stringify(form),
     }).then((response) => {
-      console.log(response); //testing response result
+      //console.log(response); //testing response result
       //console.log(JSON.stringify(form)) //testing form values
       setResponse(response);
     });
