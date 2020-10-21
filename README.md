@@ -16,4 +16,4 @@ This is a repository to save a series of exercises done for practice and review 
 - ex08: Fetch and Local Storage as a Custom Hooks for listing all countries and saving data locally.
 - ex09: Single field form to test reactivity.
 - ex10: Multi Input field form with react (Name & E-mail).
-- ex11: Multi Input field form while using POST method into an API.
+- ex11: Multi Input field form while using fetch to POST in an API, reduce and map.
