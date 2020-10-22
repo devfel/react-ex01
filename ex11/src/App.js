@@ -5,17 +5,17 @@ const App = () => {
     {
       id: "username",
       type: "text",
-      label: "Username",
+      label: "Username:",
     },
     {
       id: "email",
       type: "email",
-      label: "E-mail",
+      label: "E-mail:",
     },
     {
       id: "password",
       type: "password",
-      label: "Password",
+      label: "Password:",
     }
   ]
   
@@ -105,7 +105,7 @@ const App = () => {
     */}
 
 
-    <button>GO!!!</button>
+    <button>Send</button>
   </form>
   );
 };
