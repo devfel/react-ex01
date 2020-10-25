@@ -17,4 +17,4 @@ This is a repository to save a series of exercises done for practice and review 
 - ex09: Single field form to test reactivity.
 - ex10: Multi Input field form with react (Name & E-mail).
 - ex11: Multi Input field form while using fetch to POST in an API, reduce and map.
-- ex12: TextArea and Input fields on forms //Not finished yet.
+- ex12: TextArea and Select fields on forms
